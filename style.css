@@ -74,6 +74,8 @@ nav ul li a:hover {
 
 .search button:hover {
     transform: scale(0.9);
+    background-color: white;
+    color: var(--main-bg-color);
 }
 
 .slider{
@@ -110,6 +112,8 @@ nav ul li a:hover {
 
 .slider button:hover{
     transform: scale(0.9);
+    background-color: white;
+    color: var(--main-bg-color);
 }
 
 
