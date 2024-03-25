@@ -1,67 +1,203 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-*{
+* {
     margin: 0;
     font-family: Poppins;
     box-sizing: border-box;
 }
 
-.navbar{
-    height: 70px;
-    /* background-color: coral; */
+body {
+    background-color: rgb(247, 243, 238);
+}
+
+.navbar {
+    height: 80px;
+    background-color: #fff;
     color: #0f1111;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    
 }
 
-.nav-logo{
+.nav-logo {
     height: 40px;
-    width: 150px;
+    width: 200px;
 }
 
-.logo{
-    background-image: url(logo.png);
-    background-size: cover;
-    height: 40px;
-    width: 100%;
+.logo {
+    background-image: url(main_logo.png);
+    background-size: contain;
+    height: 60px;
+    width: 212px;
+    background-repeat: no-repeat
 }
 
-.nav-search{
+.nav-search {
     display: flex;
     justify-content: space-evenly;
-    width: 380px;
+    width: 650px;
     height: 40px;
-    border-radius: 4px;
 }
 
-.search-input{
+.search-input {
     width: 100%;
     font-size: 1rem;
     border: none;
-    background-color: rgb(195, 237, 237);
+    background-color: rgb(218, 243, 243);
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
 }
 
-.search-icon{
+.search-icon {
     width: 45px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
-    background-color: transparent;
     color: rgb(99, 97, 97);
-    background-color: rgb(195, 237, 237);
-    border-top-left-radius: 4px;
-    border-bottom-left-radius: 4px;
+    background-color: rgb(218, 243, 243);
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
 }
 
-.nav-login{
+.nav-login {
     padding: 8px;
 }
-.nav-login:hover{
+
+.nav-login:hover {
     background-color: #0071dc;
-    color: white; 
+    color: #fff;
     border-radius: 5px;
     cursor: pointer;
+}
+
+.panel-section {
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 120px;
+    width: 100%;
+    background-color: #fff;
+}
+
+.panel {
+    display: block;
+    font-size: 0.85rem;
+}
+
+.panel-img {
+    background-size: cover;
+    height: 72px;
+    width: 72px;
+}
+
+.panel-img:hover {
+    cursor: pointer;
+}
+
+.img-text {
+    text-align: center;
+    font-weight: 600;
+}
+
+.hero-section {
+    margin-top: 10px;
+    background-image: url(img_hero.jpg);
+    background-size: cover;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.row1 {
+    margin-top: 15px;
+    margin-left: 12px;
+    margin-right: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #fff;
+}
+
+.row2 {
+    margin-top: 15px;
+    margin-left: 12px;
+    margin-right: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #fff;
+}
+
+.box {
+    height: 300px;
+    width: 20%;
+    background-color: white;
+    padding: 20px 0 15px;
+    margin: 15px;
+    border: 1px solid rgb(195, 192, 192);
+}
+
+.box-img {
+    height: 190px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box-img:hover {
+    transform: scale(0.9);
+}
+
+.box-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box-content p {
+    color: #212222;
+    font-weight: 700;
+    text-align: center;
+}
+
+footer {
+    margin-top: 25px;
+}
+
+
+.foot-panel1 {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #212222;
+    color: white;
+    height: 300px;
+}
+
+ul {
+    margin-top: 20px;
+}
+
+ul a {
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+
+ul a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.foot-panel2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 0.5px solid white;
+    background-color: #212222;
+    color: #dddddd;
+    height: 60px;
 }
